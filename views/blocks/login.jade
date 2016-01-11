@@ -1,0 +1,16 @@
+.ed-container.login
+	.ed-item
+		.login__banner
+			h2.title
+				|Una cuenta, Todas las soluciones
+			h3.subtitle
+				|Inicia sesión para acceder
+	.ed-item
+		form.login__iniciar-sesion(id="login", method="post", action="login.js")
+			
+			input(type="text", placeholder="Usuario", required)
+			input(type="password", placeholder="Contraseña" required)
+			input(type="submit", value="Iniciar sesión",name="iniciar")
+			.login__link
+				a.login__link__registro(href="/nuevo-usuario") Registrate
+				a.login__link__olvido(href="/restablecer-contraseña") ¿Olvido su contraseña?

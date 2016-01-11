@@ -1,0 +1,33 @@
+.title,.subtitle{
+		text-align: center;
+		font-weight: $light;
+		color:$magenta;
+	}
+.title{
+	font-size: $h1--font-size;
+}
+.subtitle{
+	font-size: $h3--font-size;
+	margin-top: 1rem;
+}
+.entrada-texto,.boton-submit{
+			font-size: 1rem;
+			font-weight: $extra-light;
+			padding: .8rem;
+			margin-bottom: .6rem;
+			background: rgba(white,.2);
+			color: #eee;
+			border:none;
+		}
+.boton-submit{
+			background: $rojo!important;
+			transition: all .3s;
+			margin-left: .5rem;
+			cursor: pointer;
+			&:hover{
+				background: darken($rojo,20)!important;
+			}
+		}
+.blog__main{
+	background:rgba(white,.7);
+}

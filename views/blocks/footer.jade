@@ -1,0 +1,16 @@
+footer#footer
+	.ed-container.contacto
+		.ed-item
+			h3.contacto__title.centrar-texto
+				| Dejanos tú correo y nos pondremos en contacto lo más pronto posible
+		.ed-item
+			form(id="contacto", method="post", action="contacto")
+				input.entrada-texto(type="email", placeholder="Correo" require)
+				input.boton-submit(type="submit" value="Enviar")
+		.ed-item.creditos
+			p
+				|Creado por,
+				a(href="http://twitter.com/WilliamGec", target="_blank") @william.gec
+				|computronik 2015
+
+

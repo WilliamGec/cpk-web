@@ -1,0 +1,15 @@
+.banco{
+	&__servicios{
+		a{
+			color: $rojo;
+		}
+
+	}
+	&__title{
+		font-family: ubuntu;
+	}
+	&__sub-title{
+		font-weight: $light;
+
+	}
+}

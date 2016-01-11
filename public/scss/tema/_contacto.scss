@@ -1,0 +1,68 @@
+.main__contacto{
+	padding: 2rem 0;
+	@media screen and (min-width: 600px) {
+		padding-top: 2rem;
+		padding-bottom: 3rem;
+		font-weight: $extra-light;
+	}
+	h1{
+	}
+	h3{
+		font-size: $h4--font-size;
+	}
+	&__banner{
+		background: url('../images/word_map.png') center center no-repeat;
+	}
+}
+.datos__contacto{
+	margin-bottom: 3rem;
+	h5{
+		color: $rojo;
+	}
+	p{
+		font-weight: lighter;
+		margin: 0;
+	}
+	&__redes-sociales{
+		text-align: center;
+		.icon-facebook,.icon-twitter{
+			color:white;
+			background:rgba($magenta,.9);
+			margin: 0 .3rem;
+			width: 5rem;
+			font-size: 1.5rem;
+			padding: .3rem .4rem;
+			height: 1rem;
+			border-radius: 50%;
+		}
+	}
+	&__correo{
+		display: flex;
+		align-items:center;
+		flex-direction:column;
+		width: 100%;
+		padding-top: 2rem;
+		justify-content: center !important;
+		&__email,.promocion_kis_call-skype.icon-skype{
+			border:1px solid rgba($magenta,.9);
+			background:none;
+			color: $magenta;
+			border-radius: 5px;
+			font-weight: $light;
+			transition:all .4s;
+			&:hover{
+				background:rgba($magenta,.9);
+				color: rgba(white,.9);
+			}
+		}
+		&__email{
+			display: block;
+			line-height: 3;
+			width: 15rem;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.promocion_kis_call-skype.icon-skype{
+		}
+	}
+}

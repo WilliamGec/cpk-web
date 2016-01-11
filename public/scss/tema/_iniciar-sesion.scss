@@ -1,0 +1,53 @@
+.login{
+	&__banner{
+		padding: 2rem 0;
+		.subtitle{
+			display: none;
+		}
+	}
+	&__iniciar-sesion{
+		background: lighten($gris,15);
+		padding: 3rem 2rem 1rem 2.5rem;
+		border-radius: 2px;
+		border:1.8px solid rgba($gris-oscuro,.2);
+		display: flex;
+		flex-direction:column;
+		max-width: 400px;
+		margin: auto;
+		box-sizing:border-box;
+	
+		input{
+			flex:auto;
+			border:none;
+			padding: .8rem;
+			font-size: 1rem;
+			border:1.8px solid rgba($gris-oscuro,.2);
+			font-weight: $extra-light;
+			margin-bottom: .6rem;
+			background: rgba(white,.6);
+			color: $gris-oscuro;
+		}
+		input[type=submit]{
+			text-transform: uppercase;
+			background:lighten($rojo,10);
+			cursor: pointer;
+			margin: 0;
+			&:hover{
+				background:$rojo;
+			}
+		}
+	}
+	&__link{
+		display: flex;
+		margin-top: .8rem;
+		a{
+			flex:auto;
+			font-size: .9rem;
+			transition: color .3s;
+			&:hover{
+				color:$link-color;
+
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.error-container{
+}
+.error{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	&__img{
+		min-width: 50% !important;
+		max-width: 50% !important;
+		@media screen and (min-width: 500px) {
+			min-width: 30% !important;
+			max-width: 30% !important;
+		}
+	}
+	&__title{
+		font-weight: $extra-light;
+		padding: 1rem;
+		font-size: 1.6em;
+		color: $gris-oscuro;
+		@media screen and (min-width: 500px) {
+			font-size: 2rem;
+		}
+	}
+}

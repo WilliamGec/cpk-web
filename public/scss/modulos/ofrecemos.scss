@@ -1,0 +1,29 @@
+#ofrecemos{
+	background: #eee;
+	margin: 0;
+	padding-bottom: 2rem;
+	color: $gris-oscuro;
+	font-weight: $light;
+
+}
+.ofrecemos{
+	text-align: center;
+	margin-bottom: 1rem;
+	width: 80%;
+	margin: auto;
+	&__title{
+		font-weight: $light;
+	}
+	&__ver-mas{
+		position: relative;
+		float:right;
+		font-size: .9rem;
+		margin: .7rem;
+		padding: .2rem .1rem;
+		border-radius: .3rem;
+		color: rgba(white,.9);
+		display: block;
+		width: 3rem;
+		background:$rojo;
+	}
+}

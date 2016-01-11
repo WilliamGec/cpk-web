@@ -1,0 +1,29 @@
+#footer{
+	margin-top: .6em;
+	background: $gris-oscuro;
+	border-top: 5px solid $rojo;
+	border-bottom: 2px solid $rojo;
+	.contacto{
+		
+		&__title{
+			color: #eee;
+			font-weight: $extra-light;
+		}
+		
+		
+		
+	}
+}
+form{
+	text-align: center;
+}
+.creditos{
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+	color: rgba(#eee,.45);
+	a{
+		color: #eee;
+		margin: 0 1%;
+	}
+}

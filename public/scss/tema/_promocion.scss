@@ -1,0 +1,112 @@
+.promocion_kis{
+	font-weight: $light;
+	h1{
+		margin: 0;
+		color:$rojo;
+	}
+	h2{
+		font-weight: lighter;
+		margin-top: .3rem;
+	}
+	&_link-kis{
+		background:#D90111;
+		display: block;
+		max-width: 12rem;
+		margin: 2rem auto;
+		padding: 1rem;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 4px;
+		transition:all .4s;
+		color:rgba(white,.95);
+		&:hover{
+			background:darken(#D90111,8);
+		}
+	}
+	&_quote{
+		text-align: center;
+		font-weight: $light;
+		p{
+			font-size: 1.3rem;
+			margin: 0;
+		}
+		span{
+			font-style: italic;
+			font-size: .9rem;
+		}
+	}
+	&_datos-pago{
+		em{
+			margin-left: .2rem;
+		}
+	}
+	&_correo{
+		margin-left: .2rem;
+		color:$rojo;
+		transition:all .4s;
+		&:hover{
+			color:darken($rojo,6);
+		}
+	}
+	&_imagen{
+		text-align: center;
+		figure{
+			margin: 0;
+			img{
+				width: 100%;
+			}
+		}
+		figcaption{
+			font-weight: $light;
+		}
+	}
+	&_contenido{
+		display: flex;
+	
+	}
+	&_precio{
+		font-weight: bold;
+		height: 5rem;
+		width: 5rem;
+		margin: auto;
+		background:rgba($morado,.8);
+		text-align: center;
+		border-radius: 50%;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		color: white;
+		position: relative;
+		span{
+			margin: 0;
+			display: block;
+			&:nth-child(1){
+				font-size: 2.7rem;
+			}
+			&:nth-child(2){
+				position: absolute;
+				bottom: 5px;
+				left: 0;
+				transform:translateX(40%);
+				font-size: .75rem;
+			}
+		}
+	}
+	&_nota{
+		font-size: .9rem;
+	}
+	&_call-skype{
+		background:$skype;
+		color: white;
+		font-weight: bold;
+		padding: 1rem;
+		margin: 2rem auto;
+		display: block;
+		max-width: 10rem;
+		border-radius: 50rem;
+		transition:all .4s;
+		&:hover{
+			background: darken($skype,8);
+		}
+	}
+}
