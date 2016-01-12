@@ -1,3 +1,1 @@
-$('.menu-mobil').click(function  () {
-	$(this).next().slideToggle();
-})
+$('.menu-mobil').click(function (){$(this).next().slideToggle();});
