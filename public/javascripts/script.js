@@ -1,1 +1,4 @@
-$(document).ready(function(){$('.menu-mobil').click(function (){$(this).next().slideToggle();});});
+document.addEventListener('DOMContentLoaded',function(){
+$('.menu-mobil').click(function (){$(this).next().slideToggle();
+
+})
