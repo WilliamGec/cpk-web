@@ -1,0 +1,20 @@
+.hacemos{
+	padding-bottom: 1.5rem;
+	text-align: center;
+	&__subtitulo{
+		color: $gris-oscuro;
+		margin-top: .5rem;
+		transition: all .4s;
+		margin-bottom: 2rem;
+		/* &:after{
+			content:"q";
+			font-family: ed-grid;
+			color:$verde;
+		} */
+	}
+}
+.hacemos__img{
+	width: 83.5px;
+
+}
+ 
