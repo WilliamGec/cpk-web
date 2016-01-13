@@ -4,9 +4,10 @@ footer#footer
 			h3.contacto__title.centrar-texto
 				| Dejanos tú correo y nos pondremos en contacto lo más pronto posible
 		.ed-item
-			form(id="contacto", method="post", action="contacto")
-				input.entrada-texto(type="email", placeholder="Correo" require)
-				input.boton-submit(type="submit" value="Enviar")
+			form(id="contacto", method="get", action="#contacto")
+				input.entrada-texto(type="email", placeholder="Correo" id="correo" require)
+				input.boton-submit(type="submit" value="Enviar" id="enviar")
+				p#mensaje__exito ! Listo ! Te escribiremos en unos momentos.
 		.ed-item.creditos
 			p
 				|Creado por,

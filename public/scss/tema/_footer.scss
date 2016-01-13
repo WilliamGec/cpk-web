@@ -8,9 +8,7 @@
 		&__title{
 			color: #eee;
 			font-weight: $extra-light;
-		}
-		
-		
+		}	
 		
 	}
 }
@@ -26,4 +24,17 @@ form{
 		color: #eee;
 		margin: 0 1%;
 	}
+}
+#mensaje__exito{
+	
+	color: $gris-oscuro;
+	transition: all .4s;
+	&:before{
+		margin-right: .6rem;
+		content: "q";
+		font-family: ed-grid;
+	}
+}
+.mostrar__mensaje-contacto{
+	color:$verde-mensaje !important;
 }
