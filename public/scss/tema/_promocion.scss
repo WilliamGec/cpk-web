@@ -77,6 +77,13 @@
 		justify-content: center;
 		color: white;
 		position: relative;
+		&_iva{
+			position: absolute;
+			top: 8px;
+			left: 0;
+			transform:translateX(30%);
+			font-size: .60rem;
+		}
 		span{
 			margin: 0;
 			display: block;
