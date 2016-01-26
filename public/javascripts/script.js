@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(){
 $('.menu-mobil').click(function (){$(this).next().slideToggle();})
 
-})
+
 
 
 	var clickEvent = document.getElementById('enviar');

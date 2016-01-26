@@ -2,5 +2,5 @@
 	span.icon-menu.menu-mobil Menú
 	ul.ed-menu.menu
 		each item in ['servicios','promocion','blog','pichincha-mi-vecino','contactanos','login']
-			li: a(href='/#{item}') #{item}
+			li: a.link_menu(href='/#{item}') #{item}
 	
