@@ -50,6 +50,7 @@
 			border-radius: 5px;
 			font-weight: $light;
 			transition:all .4s;
+			
 			&:hover{
 				background:rgba($magenta,.9);
 				color: rgba(white,.9);
@@ -60,6 +61,7 @@
 			line-height: 3;
 			width: 15rem;
 			margin: 0 auto;
+			margin-bottom: 1rem;
 			text-align: center;
 		}
 		.promocion_kis_call-skype.icon-skype{

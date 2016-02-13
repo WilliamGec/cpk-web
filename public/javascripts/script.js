@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded',function(){
-$('.menu-mobil').click(function (){$(this).next().slideToggle();})
+$('.menu-mobil').click(function (){$(this).next().slideToggle();
+	console.log($('.menu-mobil'));
+
 
 
 
 
 	var clickEvent = document.getElementById('enviar');
 	var mensaje = document.getElementById('mensaje__exito');
-	console.log(mensaje.classList);
 	clickEvent.addEventListener('click',function () {
-		mensaje.classList.toggle('mostrar__mensaje-contacto');
-	})
-
+		mensaje.classList.toggle('mostrar__mensaje-contacto');})
+})})
 
 /*document.addEventListener('DOMContentLoaded',function(){
 	var correo = document.getElementById(correo);
