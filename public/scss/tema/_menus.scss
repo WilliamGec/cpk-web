@@ -18,7 +18,7 @@
 			font-size: .95rem;
 			text-transform: uppercase;
 			&:hover{
-				background: $rojo;
+				background: rgba($verde, .75);
 				/* &:after{
 					content: "";
 					position: absolute;
@@ -36,7 +36,7 @@
 }
 .menu-mobil{
 	display: none;
-	color: lighten($magenta,10);
+	color: $gris-oscuro;
 	font-size: 1.2rem;
 	border: 1px solid #eee;
 	padding: 0.2rem .3rem;
@@ -66,7 +66,4 @@
 			margin-left: .6rem;
 		}
 	}
-}
-.link_menu:visited{
-	background: $rojo;
 }

@@ -1,10 +1,14 @@
 #header{
-	@media screen and (min-width: 680px) {
-		display: flex;
-	}
+	
 	margin-bottom: .6rem;
 	text-align: center;
-	padding-top: .5rem
+	
+
+	@media screen and (min-width: 680px) {
+		background-size: 100%;
+		display: flex;
+	}
+
 	a{
 	}
 	img{

@@ -12,21 +12,44 @@
 }
 .banner__mensaje{
 		/* padding: .8rem 1.4rem; */	
-		width: 70%;
 		margin: auto;
-		border-radius: .3rem;
 		.title{
-			font-size: $h2--font-size + .5em;
 			padding: 0;
+			text-transform: uppercase;
+			color:$verde;
+			font-weight: bold;
 		}
-		.title,.subtitle{
-			color: white;
-			text-shadow: 0 2px .3rem black;
+		&__subtitle{
+			text-align: center;
+			margin: 0;
+			padding-top: 2rem;
 		}
-		@media screen and (min-width: 500px) {
+		&__mail{
+			border:2px solid $azul;
+			border-radius:.7rem;
+			font-weight: 200;
+			margin: 0 auto;
+			display: block;
+			width: 90%;
+			padding: .5rem;
+			font-size: 1rem;
+			transition: all .5s;
+			color: rgb(0, 136, 204);
+			&:hover{
+				background:rgb(0, 136, 204);
+				color: $fondo-gris;
+			}
+		}
+		&__nota{
+			font-weight: 200;
+			font-size: .87rem;
+			color: rgba(black, .5);
+		}
+		@media screen and (min-width: 700px) {
 			// background-color: darken(rgba($rojo,.8),10);
 			.title{
-				font-size: $h1--font-size;
+				font-size: 2.8rem;
+
 			}
 		}
 		
@@ -35,12 +58,10 @@
 	background-repeat: no-repeat;
 	background-size: 50%;
 	position: relative;
-	box-shadow: 0 4px 6px $magenta;
 	
 }	
 .main__banner{
-	background: url('../images/banner.jpg')  center center ;
-	background-size: 100%;
+	
 }	
 .services__banner{
 	background: url('../images/banner-servicios.jpg')  center center ;

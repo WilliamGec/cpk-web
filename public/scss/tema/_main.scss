@@ -3,7 +3,9 @@
 	text-align: center;
 	&__subtitulo{
 		color: $gris-oscuro;
+		text-transform: uppercase;
 		margin-top: .5rem;
+		font-size: .9rem;
 		transition: all .4s;
 		margin-bottom: 2rem;
 		/* &:after{

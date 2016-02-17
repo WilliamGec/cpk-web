@@ -1,5 +1,4 @@
 #ofrecemos{
-	background: #eee;
 	margin: 0;
 	padding-bottom: 2rem;
 	color: $gris-oscuro;
@@ -14,10 +13,12 @@
 	&__title{
 		font-weight: $light;
 	}
+	&__detalle{
+		line-height: normal;
+	}
 	&__ver-mas{
 		position: relative;
 		float:right;
-		font-size: .9rem;
 		margin: .7rem;
 		padding: .2rem .1rem;
 		border-radius: .3rem;
