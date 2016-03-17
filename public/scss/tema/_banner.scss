@@ -30,11 +30,14 @@
 			font-weight: 200;
 			margin: 0 auto;
 			display: block;
-			width: 90%;
+			width: 60%;
 			padding: .5rem;
 			font-size: 1rem;
 			transition: all .5s;
 			color: rgb(0, 136, 204);
+			@media screen and (min-width:700px){
+				width: 30%;
+			}
 			&:hover{
 				background:rgb(0, 136, 204);
 				color: $fondo-gris;
@@ -64,11 +67,8 @@
 	
 }	
 .services__banner{
-	background: url('../images/banner-servicios.jpg')  center center ;
-	background-size: 100%;
 	.banner__mensaje{
 		@media screen and (min-width: 500px) {
-			background-color: darken(rgba($azul,.5),10);
 			
 		}
 	}

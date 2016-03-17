@@ -1,0 +1,12 @@
+.hacemos{
+	&__img{
+		border-radius: 50%;
+		border:.5rem solid rgba($gris, .2);
+		padding: .2rem;
+		transition: all.4s;
+		box-sizing:normal;
+		&:hover{
+			border-color:$verde;
+		}
+	}
+}
